@@ -564,7 +564,7 @@ $page_name = 'data_list'
 
         function read_it(photo, name, mobile, email, birthday, city, town, address) {
             Swal.fire({
-                title: `<img src=${photo}>`,
+                title: `<img src=${photo} style="width:100%">`,
                 // type: 'info',
                 html: `<h2>姓名:${name}</u></h2>
                     <p>手機:${mobile}</p>
